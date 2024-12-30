@@ -1,0 +1,21 @@
+…or create a new repository on the command line
+echo "# Kafka-Examples" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/eabiatallah/Kafka-Examples.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/eabiatallah/Kafka-Examples.git
+git branch -M master
+git push -u origin master
+
+
+
+## Kafka projects:
+Use Confluent in Kafka Local:
+1 - Run Zookeeper: .\bin\windows\zookeeper-server-start.bat .\etc\kafka\zookeeper.properties
+2 - Run Kafka    : .\bin\windows\kafka-server-start.bat .\etc\kafka\server.properties
+3 - Double click Offset under C:\Users\eabia\tools\OffsetExplorer3
+
